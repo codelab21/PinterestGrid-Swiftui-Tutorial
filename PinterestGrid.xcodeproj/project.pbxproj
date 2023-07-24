@@ -14,7 +14,6 @@
 		CF8680CF284D0E7D00E007F9 /* PinterestGridTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8680CE284D0E7D00E007F9 /* PinterestGridTests.swift */; };
 		CF8680D9284D0E7D00E007F9 /* PinterestGridUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8680D8284D0E7D00E007F9 /* PinterestGridUITests.swift */; };
 		CF8680DB284D0E7D00E007F9 /* PinterestGridUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8680DA284D0E7D00E007F9 /* PinterestGridUITestsLaunchTests.swift */; };
-		CF8680E8284D0F0600E007F9 /* PinterestGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8680E7284D0F0600E007F9 /* PinterestGrid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +44,6 @@
 		CF8680D4284D0E7D00E007F9 /* PinterestGridUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinterestGridUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF8680D8284D0E7D00E007F9 /* PinterestGridUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinterestGridUITests.swift; sourceTree = "<group>"; };
 		CF8680DA284D0E7D00E007F9 /* PinterestGridUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinterestGridUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		CF8680E7284D0F0600E007F9 /* PinterestGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinterestGrid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +96,6 @@
 			children = (
 				CF8680BD284D0E7A00E007F9 /* PinterestGridApp.swift */,
 				CF8680BF284D0E7A00E007F9 /* ContentView.swift */,
-				CF8680E7284D0F0600E007F9 /* PinterestGrid.swift */,
 				CF8680C1284D0E7D00E007F9 /* Assets.xcassets */,
 				CF8680C3284D0E7D00E007F9 /* Preview Content */,
 			);
@@ -260,7 +257,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF8680E8284D0F0600E007F9 /* PinterestGrid.swift in Sources */,
 				CF8680C0284D0E7A00E007F9 /* ContentView.swift in Sources */,
 				CF8680BE284D0E7A00E007F9 /* PinterestGridApp.swift in Sources */,
 			);
@@ -421,7 +417,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PinterestGrid/Preview Content\"";
-				DEVELOPMENT_TEAM = LPY59J6YN4;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -434,11 +430,14 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Ayhan.com.PinterestGrid;
+				PRODUCT_BUNDLE_IDENTIFIER = io.CodeLab.PinterestGrid;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -450,7 +449,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PinterestGrid/Preview Content\"";
-				DEVELOPMENT_TEAM = LPY59J6YN4;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -463,11 +462,14 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Ayhan.com.PinterestGrid;
+				PRODUCT_BUNDLE_IDENTIFIER = io.CodeLab.PinterestGrid;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
